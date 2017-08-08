@@ -1,0 +1,39 @@
+ul {
+  width: 600px;
+  height: 500px;
+}
+
+li {
+  float: left;
+  list-style: none;
+  width: 150px;
+  height: 150px;
+  border: solid black 5px;
+  margin: -3px;
+}
+
+.unclicked {
+  background-color: grey;
+}
+
+.unclicked:hover {
+  background-color: yellow;
+}
+
+.clicked {
+  background-color: white;
+}
+
+h1 {
+  font-family: monospace;
+  padding-left: 46px;
+  font-size: 60px;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
